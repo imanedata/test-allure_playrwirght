@@ -39,6 +39,7 @@ pipeline {
             unstash 'allure-results' //extract results
             script {
                 allure([
+                commandline: 'allure',
                 includeProperties: false,
                 jdk: '',
                 properties: [],
