@@ -8,7 +8,6 @@ let loginPage: LoginPage;
 Given('I open the login page', async function () {
     loginPage = new LoginPage(this.page); 
     await loginPage.goto();
-    await loginPage.clickContinue();
 });
 
 When('I login with username {string} and password {string}', async function (username: string, password: string) {
