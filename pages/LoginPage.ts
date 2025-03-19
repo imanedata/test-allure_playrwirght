@@ -17,7 +17,7 @@ class LoginPage {
     };
 
     async goto() {
-        await this.page.goto('https://58g6w7d4-9091.uks1.devtunnels.ms/admin/login/?next=/admin/');
+        await this.page.goto('https://192.168.1.95/admin/login/?next=/admin/');
     }
 
     async fillUsername(username: string){
