@@ -17,7 +17,7 @@ class LoginPage {
     };
 
     async goto() {
-        await this.page.goto('https://192.168.1.95/admin/login/?next=/admin/');
+        await this.page.goto('http://192.168.1.95/admin/login/?next=/admin/');
     }
 
     async fillUsername(username: string){
